@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sponsor_info_sponsors",
+  "info": {
+    "displayName": "sponsors",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sponsor_name": {
+      "type": "string"
+    },
+    "sponsor_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sponsor_level": {
+      "type": "enumeration",
+      "enum": [
+        "platinum",
+        "gold",
+        "contributing",
+        "founding"
+      ]
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}

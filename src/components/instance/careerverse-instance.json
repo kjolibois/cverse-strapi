@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_instance_careerverse_instances",
+  "info": {
+    "displayName": "careerverse_instance",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "specific_world_info": {
+      "displayName": "worlds",
+      "type": "component",
+      "repeatable": true,
+      "component": "worlds-info.worlds"
+    }
+  }
+}

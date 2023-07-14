@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "careerverse_instances",
+  "info": {
+    "singularName": "careerverse-instance",
+    "pluralName": "careerverse-instances",
+    "displayName": "careerverse_instance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Sponsors": {
+      "displayName": "sponsors",
+      "type": "component",
+      "repeatable": true,
+      "component": "sponsor-info.sponsors"
+    },
+    "worlds_pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "worlds-info.worlds"
+    },
+    "instanceID": {
+      "type": "uid"
+    },
+    "matchingID": {
+      "type": "string"
+    }
+  }
+}

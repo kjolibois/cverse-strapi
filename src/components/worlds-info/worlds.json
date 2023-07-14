@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_worlds_info_worlds",
+  "info": {
+    "displayName": "worlds",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "world_name": {
+      "type": "string"
+    },
+    "background_lottie": {
+      "type": "json"
+    },
+    "select_page_lottie": {
+      "type": "json"
+    },
+    "url_stub": {
+      "type": "string"
+    },
+    "careers": {
+      "displayName": "careers_tab",
+      "type": "component",
+      "repeatable": true,
+      "component": "careers-tab.careers-tab"
+    }
+  }
+}

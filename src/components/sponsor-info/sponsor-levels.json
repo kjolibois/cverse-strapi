@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sponsor_info_sponsor_levels",
+  "info": {
+    "displayName": "sponsor_levels",
+    "icon": "cup"
+  },
+  "options": {},
+  "attributes": {
+    "sponsor_level_name": {
+      "type": "string"
+    }
+  }
+}

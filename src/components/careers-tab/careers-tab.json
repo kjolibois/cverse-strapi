@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_careers_tab_careers_tabs",
+  "info": {
+    "displayName": "careers_tab",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "career_name": {
+      "type": "string"
+    },
+    "career_media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "career_description": {
+      "type": "richtext"
+    },
+    "video_link": {
+      "type": "string"
+    },
+    "salary_top_range": {
+      "type": "integer"
+    },
+    "salary_bottom_of_range": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_world_content_world_infos",
+  "info": {
+    "displayName": "world_info",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "world_name": {
+      "type": "string"
+    }
+  }
+}

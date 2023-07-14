@@ -107,6 +107,8 @@ coverage
 ############################
 
 .env
+.env*
+ecosystem.config.js
 license.txt
 exports
 *.cache
